@@ -135,6 +135,7 @@ export function Deadlines({ assignments }){
 export function Links(){
     return (
         <div className='p-5 border font-mono font-semibold text-blue-700 border-black flex flex-col justify-center items-center'>
+            <a href="https://hunter.cuny.edu/students/registration/academic-calendar/" target="_blank">Academic Calander</a>
             <a href="https://a-nikolaev.github.io/cs136/linux/" target="_blank">Basic Unix Terminal Commands</a>
             <a href="https://okunhardt.github.io/documents/Installing_WSL.pdf" target="_blank">Linux Terminal on Windows</a>
             <a href="https://code.visualstudio.com/docs/cpp/config-mingw" target="_blank">Windows minGW compiler setup with VSCode</a>

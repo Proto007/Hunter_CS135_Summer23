@@ -1,8 +1,10 @@
 import { useState } from 'react';
 import { SlGraduation, SlLink, SlClock } from 'react-icons/sl'
+import { ImLab } from 'react-icons/im'
+import { LuSchool } from 'react-icons/lu'
+import { AiOutlineFundProjectionScreen } from 'react-icons/ai'
 
-
-export const Info = () => {
+export const Info = ( assignments ) => {
     const [selected, setSelected] = useState(1);
 
     return (
@@ -34,6 +36,7 @@ export const Info = () => {
                 </button>
             </div>
             {selected == 1 && <CourseInfo/>}
+            {selected == 2 && <Deadlines assignments={assignments}/>}
         </div>
     )
 }
@@ -100,6 +103,29 @@ export function CourseInfo() {
                         </dd>
                     </div>
                 </dl>
+            </div>
+        </div>
+    )
+}
+
+export function Deadlines({ assignments }){
+    return (
+        <div className='p-5 border border-black'>
+            <div className='grid grid-cols-3 gap-4'>
+                {
+                    assignments.assignments.map((assignment,index) => {
+                        return (
+                            <div key={index} className='py-5 border-2 border-red-500 font-mono text-red-700 flex flex-col justify-center items-center text-center'>
+                                {assignment.type == "lab" && <ImLab size={70}/>}
+                                {assignment.type == "classwork/homework" && <LuSchool size={70}/>}
+                                {assignment.type == "project" && <AiOutlineFundProjectionScreen size={70}/>}
+                                <br/>
+                                {assignment.name}<br/>
+                                {assignment.deadline}
+                            </div>
+                        )
+                    })
+                }
             </div>
         </div>
     )

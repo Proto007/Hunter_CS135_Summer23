@@ -37,6 +37,7 @@ export const Info = ( assignments ) => {
             </div>
             {selected == 1 && <CourseInfo/>}
             {selected == 2 && <Deadlines assignments={assignments}/>}
+            {selected == 3 && <Links/>}
         </div>
     )
 }
@@ -127,6 +128,18 @@ export function Deadlines({ assignments }){
                     })
                 }
             </div>
+        </div>
+    )
+}
+
+export function Links(){
+    return (
+        <div className='p-5 border font-mono font-semibold text-blue-700 border-black flex flex-col justify-center items-center'>
+            <a href="https://a-nikolaev.github.io/cs136/linux/" target="_blank">Basic Unix Terminal Commands</a>
+            <a href="https://okunhardt.github.io/documents/Installing_WSL.pdf" target="_blank">Linux Terminal on Windows</a>
+            <a href="https://code.visualstudio.com/docs/cpp/config-mingw" target="_blank">Windows minGW compiler setup with VSCode</a>
+            <a href="https://maryash.github.io/135/worked_examples/style_guide.html" target="_blank">Coding Style Guide</a>
+            <a href="https://a-nikolaev.github.io/cs136/vim/" target="_blank">Setting up Vim text-editor</a>
         </div>
     )
 }

@@ -27,4 +27,8 @@ export const faqdata = [
         question: "My email on Gradescope is wrong. What do I do?",
         answer: "Send me an email letting me know your preferred email address.",
     },
+    {
+        question: "When will assignment X be available on gradescope?",
+        answer: "Lab assignments are made available at the start of each recitation. You are encouraged to work ahead since the lab links will be available before the labs are available on Gradescope. Projects, homeworks, and classworks will be available on gradescope as they are announced in class.",
+    },
 ]

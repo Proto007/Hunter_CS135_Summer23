@@ -19,4 +19,12 @@ export const faqdata = [
         question: "Do I need to stay for the entirety of the recitation?",
         answer: "If you finish your lab and don't have any questions, feel free to leave. Make sure you take the quiz tho.",
     },
+    {
+        question: "I wasn't added to Gradescope. What do I do?",
+        answer: "Send me an email with your first name, last name, EMPLID, and preferred email address.",
+    },
+    {
+        question: "My email on Gradescope is wrong. What do I do?",
+        answer: "Send me an email letting me know your preferred email address.",
+    },
 ]

@@ -31,4 +31,8 @@ export const faqdata = [
         question: "When will assignment X be available on gradescope?",
         answer: "Lab assignments are made available at the start of each recitation. You are encouraged to work ahead since the lab links will be available before the labs are available on Gradescope. Projects, homeworks, and classworks will be available on gradescope as they are announced in class.",
     },
+    {
+        question: "Do I need to pass the final in order to pass the class?",
+        answer: "Nope. You can pass the class even if you fail the final.",
+    },
 ]

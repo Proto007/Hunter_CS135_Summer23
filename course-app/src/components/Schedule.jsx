@@ -24,9 +24,9 @@ export default function Schedule(){
                         <a target="_blank" href="https://maryash.github.io/135/slides/1.6%20Errors.pdf">Errors</a><br/>
                         <a target="_blank" href="https://maryash.github.io/135/slides/1.7%20PS%20Algorithm%20Design.pdf">Algorithm Design</a><br/>
                         <a target="_blank" href="https://maryash.github.io/135/slides/2.1%20Variables.pdf">Variables</a><br/>
-                        <a target="_blank" href="https://maryash.github.io/135/slides/2.2%20Arithmetic.pdf">Arithmetic</a><br/>
+                        {/* <a target="_blank" href="https://maryash.github.io/135/slides/2.2%20Arithmetic.pdf">Arithmetic</a><br/>
                         <a target="_blank" href="https://maryash.github.io/135/slides/2.3%20Input%20and%20Output%20_%202.4%20PS%20First%20Do%20It%20By%20Hand.pdf">Input and Output</a><br/>
-                        <a target="_blank" href="https://maryash.github.io/135/slides/2.5%20Strings.pdf">Strings</a><br/>
+                        <a target="_blank" href="https://maryash.github.io/135/slides/2.5%20Strings.pdf">Strings</a><br/> */}
                     </td>
                     <td className="border border-slate-700 p-0 text-center text-blue-700 font-bold">
                         <a target="_blank" href="https://maryash.github.io/135/labs/lab_01.html">Lab 1</a><br/>

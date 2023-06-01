@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Homeworks from "./Homeworks";
 
 export default function Navbar(){
     const [showNav, toggle] = useState(false);
@@ -33,9 +34,12 @@ export default function Navbar(){
                             </a>
                         </li>
                         <li className="nav-item border-b-2 lg:border-0">
-                            <a className="px-3 py-2 flex items-center text-sm uppercase font-bold font-serif leading-snug text-white hover:opacity-75" href="https://www.gradescope.com/courses/545129" target="_blank">
+                            <a className="px-3 py-2 flex items-center text-sm uppercase font-bold font-serif leading-snug text-white hover:opacity-75" href="https://www.gradescope.com/courses/545354" target="_blank">
                                 Gradescope
                             </a>
+                        </li>
+                        <li className="nav-item border-b-2 lg:border-0 pl-0 pr-3">
+                            <Homeworks/>
                         </li>
                     </ul>
                 </div>

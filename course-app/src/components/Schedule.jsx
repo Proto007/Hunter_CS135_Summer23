@@ -1,6 +1,6 @@
 export default function Schedule(){
     return(
-        <table className="border-collapse border border-slate-500 font-mono w-10/12">
+        <div className="overflow-auto w-10/12"><table className="border-collapse border border-slate-500 font-mono w-full">
             <thead>
                 <tr className="bg-black text-white">
                     <th className="border border-slate-600 p-3">Date</th>
@@ -54,6 +54,6 @@ export default function Schedule(){
                     </td>
                 </tr>
             </tbody>
-        </table>
+        </table></div>
     )
 }

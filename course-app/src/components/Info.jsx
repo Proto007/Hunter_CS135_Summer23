@@ -9,7 +9,7 @@ export const Info = ( assignments ) => {
 
     return (
         <div className="w-10/12 py-5">
-            <div className="flex flex-row">
+            <div className="flex lg:flex-row flex-col">
                 <button 
                     className={"basis-1/3 font-mono font-semibold flex flex-row justify-center items-center uppercase py-5 rounded-tl-lg shadow-md shadow-black " + ((selected == 1 ? "bg-black text-white" : "bg-white border-2 border-black hover:bg-black hover:text-white"))}
                     onClick={() => {setSelected(1)}}
@@ -112,7 +112,7 @@ export function CourseInfo() {
 export function Deadlines({ assignments }){
     return (
         <div className='p-5 border border-black'>
-            <div className='grid grid-cols-3 gap-4'>
+            <div className='grid lg:grid-cols-3 gap-4'>
                 {
                     assignments.assignments.map((assignment,index) => {
                         return (
@@ -134,7 +134,7 @@ export function Deadlines({ assignments }){
 
 export function Links(){
     return (
-        <div className='p-5 border font-mono font-semibold text-blue-700 border-black flex flex-col justify-center items-center'>
+        <div className='p-5 border font-mono font-semibold text-blue-700 border-black flex flex-col justify-center items-center text-center divide-y divide-gray-100'>
             <a href="https://hunter.cuny.edu/students/registration/academic-calendar/" target="_blank">Academic Calander</a>
             <a href="https://a-nikolaev.github.io/cs136/linux/" target="_blank">Basic Unix Terminal Commands</a>
             <a href="https://okunhardt.github.io/documents/Installing_WSL.pdf" target="_blank">Linux Terminal on Windows</a>

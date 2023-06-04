@@ -7,7 +7,7 @@ export const Faq = ({section}) => {
     return (
         <div>
             <Question question={section.question} isOpen={isOpen} toggle={toggle}/>
-            { isOpen && <Answer answer={section.answer }/>}
+            { isOpen && <Answer answer={ section.answer }/>}
         </div>
     )
 }

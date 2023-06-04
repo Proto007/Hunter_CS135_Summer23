@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Homeworks from "./Homeworks";
 
-export default function Navbar(){
+export default function Navbar(homeworks){
     const [showNav, toggle] = useState(false);
 
     return(
@@ -39,7 +39,7 @@ export default function Navbar(){
                             </a>
                         </li>
                         <li className="nav-item border-b-2 lg:border-0 pl-0 pr-3">
-                            <Homeworks/>
+                            <Homeworks homeworks={ homeworks.homeworks }/>
                         </li>
                     </ul>
                 </div>

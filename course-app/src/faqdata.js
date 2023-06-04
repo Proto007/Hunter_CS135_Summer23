@@ -1,4 +1,4 @@
-export const faqdata = [
+export const faqData = [
     {
         question: "Is attendance mandatory?",
         answer: "Attendance is not mandatory. However, since this is an 8-week course, missing a single day means missing multiple days worth of material. In addition, you are responsible for all the classwork that you will potentially miss.",

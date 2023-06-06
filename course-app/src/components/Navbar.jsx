@@ -8,7 +8,7 @@ export default function Navbar(homeworks){
         <nav className="flex flex-wrap items-center justify-between px-2 py-3 bg-black mb-3 sticky top-0">
             <div className="container px-4 mx-auto flex flex-wrap items-center justify-center">
                 <div className="w-full relative flex justify-between lg:w-auto  px-4 lg:static lg:block lg:justify-start">
-                    <a className="text-2xl font-bold font-serif leading-relaxed inline-block mr-4 py-2 whitespace-nowrap text-white" href="/Hunter_CS135_Summer23/">
+                    <a className="sm:text-md md:text-2xl font-bold font-serif leading-relaxed inline-block mr-4 py-2 whitespace-nowrap text-white" href="/Hunter_CS135_Summer23/">
                         Software Analysis and Design I
                     </a>
                     <button className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" 

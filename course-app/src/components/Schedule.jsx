@@ -44,7 +44,7 @@ export default function Schedule(){
                         <a target="_blank" href="https://maryash.github.io/135/slides/2.5%20Strings.pdf">Strings</a><br/>
                         <a target="_blank" href="https://maryash.github.io/135/slides/3.1%20The%20IF%20Statement.pdf">If-Statements</a><br/>
                         <a target="_blank" href="https://maryash.github.io/135/slides/3.2%20Comparing%20Numbers%20and%20Strings.pdf">Comparing Numbers and Strings</a><br/>
-                        <a target="_blank" href="https://maryash.github.io/135/slides/3.3%20Multiple%20Alternatives%20_%203.4%20Nested%20Branches.pdf">Multiple Alternatives</a><br/>
+                        <a target="_blank" href="https://maryash.github.io/135/slides/3.3%20Multiple%20Alternatives%20_%203.4%20Nested%20Branches.pdf">Multiple Alternatives</a>
                     </td>
                     <td className="border border-slate-700 p-0 text-center text-blue-700 font-bold">
                         <a target="_blank" href="https://maryash.github.io/135/labs/lab_02.html">Lab 2</a><br/>
@@ -52,12 +52,12 @@ export default function Schedule(){
                     </td>
                 </tr>
                 <tr>
-                    <td className="border border-slate-700 p-2 text-center">06/07/2023</td>
+                    <td className="border border-slate-700 p-2 text-center">06/12/2023</td>
                     <td className="border border-slate-700 p-2 text-center">
                         Boolean Datatype<br/>
                         Input Validation<br/>
                         Different Loops<br/>
-                        Random
+                        Loop Algorithms
                     </td>
                     <td className="border border-slate-700 p-2 text-center text-blue-700 font-bold">
                         <a target="_blank" href="https://maryash.github.io/135/slides/3.7%20Boolean%20Variables%20and%20Operators.pdf">Boolean Datatype and Operators</a><br/>
@@ -65,12 +65,31 @@ export default function Schedule(){
                         <a target="_blank" href="https://maryash.github.io/135/slides/4.1%20The%20WHILE%20Loop.pdf">While Loops</a><br/>
                         <a target="_blank" href="https://maryash.github.io/135/slides/4.2%20PS%20Hand-Tracing%20_%204.3%20The%20FOR%20Loop.pdf">For Loops</a><br/>
                         <a target="_blank" href="https://maryash.github.io/135/slides/4.4%20The%20DO%20Loop%20_%204.5%20Processing%20Input.pdf">Do-While Loops</a><br/>
-                        <a target="_blank" href="https://maryash.github.io/135/slides/4.6%20PS%20Storyboards%20_%204.7%20Common%20Loop%20Algorithms%20_%204.8%20Nested%20Loops.pdf">Nested Loops</a><br/>
-                        <a target="_blank" href="https://maryash.github.io/135/slides/4.9%20PS%20Solve%20a%20Simpler%20Problem%20First%20_%204.10%20Random%20Numbers%20and%20Simulations.pdf">Random</a>
+                        <a target="_blank" href="https://maryash.github.io/135/slides/4.6%20PS%20Storyboards%20_%204.7%20Common%20Loop%20Algorithms%20_%204.8%20Nested%20Loops.pdf">Loop Algorithms</a>
                     </td>
                     <td className="border border-slate-700 p-0 text-center text-blue-700 font-bold">
                         <a target="_blank" href="https://maryash.github.io/135/labs/lab_03.html">Lab 3</a><br/>
+                        <a target="_blank" href="/Hunter_CS135_Summer23/extra_content/Current_Reservoir_Levels.tsv">Datafile</a><br/>
                         <a target="_blank" href="/Hunter_CS135_Summer23/recitation_slides/Lab_3.pdf">Slides</a><br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td className="border border-slate-700 p-2 text-center">06/07/2023</td>
+                    <td className="border border-slate-700 p-2 text-center">
+                        Nested Loops<br/>
+                        Random<br/>
+                        Functions
+                    </td>
+                    <td className="border border-slate-700 p-2 text-center text-blue-700 font-bold">
+                        <a target="_blank" href="https://maryash.github.io/135/slides/4.6%20PS%20Storyboards%20_%204.7%20Common%20Loop%20Algorithms%20_%204.8%20Nested%20Loops.pdf">Nested Loops</a><br/>
+                        <a target="_blank" href="https://maryash.github.io/135/slides/4.9%20PS%20Solve%20a%20Simpler%20Problem%20First%20_%204.10%20Random%20Numbers%20and%20Simulations.pdf">Random Numbers and Simulations</a><br/>
+                        <a target="_blank" href="https://maryash.github.io/135/slides/5.1%20Functions%20as%20Black%20Boxes%20_%205.2%20Implementing%20Functions%20_%205.3%20Parameter%20Passing.pdf">Functions</a><br/>
+                        <a target="_blank" href="https://maryash.github.io/135/slides/5.4%20Return%20Values%20_%205.5%20Functions%20without%20Return%20Values%20_%205.6%20Reusable%20Functions.pdf">Returning from a function</a><br/>
+
+                    </td>
+                    <td className="border border-slate-700 p-0 text-center text-blue-700 font-bold">
+                        <a target="_blank" href="https://maryash.github.io/135/labs/lab_04.html">Lab 4</a><br/>
+                        <a target="_blank" href="/Hunter_CS135_Summer23/recitation_slides/Lab_4.pdf">Slides</a><br/>
                     </td>
                 </tr>
             </tbody>

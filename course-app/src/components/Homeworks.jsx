@@ -93,7 +93,7 @@ export default function Homeworks(homeworks) {
                   </Dialog.Title>
                   <div>
                     <p className="text-red-700 font-mono">{ assignment.due }</p>
-                    <p className="font-mono py-5 text-start select-none">
+                    <p className="font-mono py-5 text-start select-none whitespace-pre-line">
                       {assignment.prompt}
                     </p>
                   </div>

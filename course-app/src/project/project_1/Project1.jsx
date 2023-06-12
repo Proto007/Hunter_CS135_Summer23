@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { HashLink } from 'react-router-hash-link';
 import SyntaxHighlighter from 'react-syntax-highlighter'
 import { tomorrowNightBlue } from 'react-syntax-highlighter/dist/esm/styles/hljs'
 import { AiOutlineDoubleLeft, AiOutlineDoubleRight } from "react-icons/ai"
@@ -88,19 +89,19 @@ int countPrefix(string prefix);`
                 {
                 expand ?  
                     <div className="grow flex flex-col py-5 px-2 font-semibold justify-center items-center text-center bg-black text-white lg:text-2xl overline">   
-                        <a href="#introduction" className="hover:opacity-75">Introduction</a>
-                        <a href="#taskA" className="mt-10 hover:opacity-75">Task A</a>
-                        <a href="#taskB" className="mt-10 hover:opacity-75">Task B</a>
-                        {/* <a href="#taskC" className="mt-10 hover:opacity-75">Task C</a>
-                        <a href="#taskD" className="mt-10 hover:opacity-75">Task D</a> */}
+                        <HashLink to="#introduction" className="hover:opacity-75">Introduction</HashLink>
+                        <HashLink to="#taskA" className="mt-10 hover:opacity-75">Task A</HashLink>
+                        <HashLink to="#taskB" className="mt-10 hover:opacity-75">Task B</HashLink>
+                        {/* <HashLink to="#taskC" className="mt-10 hover:opacity-75">Task C</HashLink>
+                        <HashLink to="#taskD" className="mt-10 hover:opacity-75">Task D</HashLink> */}
                     </div>
                 :
                     <div className="grow flex flex-col py-5 px-2 font-mono justify-center items-center text-center bg-black text-white">   
-                        <a href="#introduction" className="px-3 rounded-md border-white border-2 text-2xl hover:bg-gradient-to-b hover:from-red-100 hover:via-green-100 hover:to-blue-100 hover:text-black">i</a>
-                        <a href="#taskA" className="mt-10 px-3 rounded-md border-white border-2 text-2xl hover:bg-gradient-to-b hover:from-red-100 hover:via-green-100 hover:to-blue-100 hover:text-black">A</a>
-                        <a href="#taskB" className="mt-10 px-3 rounded-md border-white border-2 text-2xl hover:bg-gradient-to-b hover:from-red-100 hover:via-green-100 hover:to-blue-100 hover:text-black">B</a>
-                        {/* <a href="#taskC" className="mt-10 px-3 rounded-md border-white border-2 text-2xl hover:bg-gradient-to-b hover:from-red-100 hover:via-green-100 hover:to-blue-100 hover:text-black">C</a>
-                        <a href="#taskD" className="mt-10 px-3 rounded-md border-white border-2 text-2xl hover:bg-gradient-to-b hover:from-red-100 hover:via-green-100 hover:to-blue-100 hover:text-black">D</a> */}
+                        <HashLink to="#introduction" className="px-3 rounded-md border-white border-2 text-2xl hover:bg-gradient-to-b hover:from-red-100 hover:via-green-100 hover:to-blue-100 hover:text-black">i</HashLink>
+                        <HashLink to="#taskA" className="mt-10 px-3 rounded-md border-white border-2 text-2xl hover:bg-gradient-to-b hover:from-red-100 hover:via-green-100 hover:to-blue-100 hover:text-black">A</HashLink>
+                        <HashLink to="#taskB" className="mt-10 px-3 rounded-md border-white border-2 text-2xl hover:bg-gradient-to-b hover:from-red-100 hover:via-green-100 hover:to-blue-100 hover:text-black">B</HashLink>
+                        {/* <HashLink to="/taskC" className="mt-10 px-3 rounded-md border-white border-2 text-2xl hover:bg-gradient-to-b hover:from-red-100 hover:via-green-100 hover:to-blue-100 hover:text-black">C</HashLink>
+                        <HashLink to="/taskD" className="mt-10 px-3 rounded-md border-white border-2 text-2xl hover:bg-gradient-to-b hover:from-red-100 hover:via-green-100 hover:to-blue-100 hover:text-black">D</HashLink> */}
                     </div>
                 }
             </div>

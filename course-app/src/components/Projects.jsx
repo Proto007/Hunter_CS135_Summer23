@@ -34,7 +34,7 @@ export default function Projects() {
                         'block px-4 py-2'
                     )}
                     target="_blank"
-                    href="/Hunter_CS135_Summer23/Project_1"
+                    href="/Hunter_CS135_Summer23/#/Project_1"
                     >
                     Project 1
                     </a>

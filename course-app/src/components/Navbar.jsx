@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Homeworks from "./Homeworks";
+import Projects from "./Projects";
 
 export default function Navbar(homeworks){
     const [showNav, toggle] = useState(false);
@@ -24,9 +25,7 @@ export default function Navbar(homeworks){
                 <div className={"lg:flex justify-center "+(showNav ? "flex" : "hidden")}>
                     <ul className="flex flex-col justify-center items-center lg:flex-row list-none ml-auto w-full">
                         <li className="nav-item border-b-2 lg:border-0">
-                            <a className="px-3 py-2 flex items-center text-sm uppercase font-bold font-serif leading-snug text-white hover:opacity-75" href="http://proto007.pythonanywhere.com/" target="_blank">
-                                Projects
-                            </a>
+                            <Projects/>
                         </li>
                         <li className="nav-item border-b-2 lg:border-0">
                             <a className="px-3 py-2 flex items-center text-sm uppercase font-bold font-serif leading-snug text-white hover:opacity-75" href="/Hunter_CS135_Summer23/CSCI135_Syllabus.pdf" target="_blank">

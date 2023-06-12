@@ -35,6 +35,8 @@ jobs:
         with:
           node-version: 18
           cache: 'npm'
+      - name: Move to React directory
+        run: cd course-app
       - name: Install dependencies
         run: npm install
       - name: Build

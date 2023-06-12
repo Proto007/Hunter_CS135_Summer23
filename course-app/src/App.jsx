@@ -6,8 +6,8 @@ import Project1 from './project/project_1/Project1';
 export default function App() {
   return (
     <Routes>
-      <Route path="/Hunter_CS135_Summer23" element={<Homepage/>}/>
-      <Route path="/Hunter_CS135_Summer23/Project_1" element={<Project1/>}/>
+      <Route path="/" element={<Homepage/>}/>
+      <Route path="/Project_1" element={<Project1/>}/>
     </Routes> 
   )
 }

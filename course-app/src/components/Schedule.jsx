@@ -52,7 +52,7 @@ export default function Schedule(){
                     </td>
                 </tr>
                 <tr>
-                    <td className="border border-slate-700 p-2 text-center">06/12/2023</td>
+                    <td className="border border-slate-700 p-2 text-center">06/07/2023</td>
                     <td className="border border-slate-700 p-2 text-center">
                         Boolean Datatype<br/>
                         Input Validation<br/>
@@ -74,7 +74,7 @@ export default function Schedule(){
                     </td>
                 </tr>
                 <tr>
-                    <td className="border border-slate-700 p-2 text-center">06/07/2023</td>
+                    <td className="border border-slate-700 p-2 text-center">06/12/2023</td>
                     <td className="border border-slate-700 p-2 text-center">
                         Nested Loops<br/>
                         Random<br/>
@@ -90,6 +90,23 @@ export default function Schedule(){
                     <td className="border border-slate-700 p-0 text-center text-blue-700 font-bold">
                         <a target="_blank" href="https://maryash.github.io/135/labs/lab_04.html">Lab 4</a><br/>
                         <a target="_blank" href="/Hunter_CS135_Summer23/recitation_slides/Lab_4.pdf">Slides</a><br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td className="border border-slate-700 p-2 text-center">06/14/2023</td>
+                    <td className="border border-slate-700 p-2 text-center">
+                        Breaking Down Complex Problems<br/>
+                        Variable Scopes<br/>
+                        Pass by Reference
+                    </td>
+                    <td className="border border-slate-700 p-2 text-center text-blue-700 font-bold">
+                        <a target="_blank" href="https://maryash.github.io/135/slides/5.7%20Stepwise%20Refinement.pdf">Stepwise Refinement</a><br/>
+                        <a target="_blank" href="https://maryash.github.io/135/slides/5.8%20Variable%20Scope%20and%20Globals.pdf">Variable Scopes</a><br/>
+                        <a target="_blank" href="https://maryash.github.io/135/slides/Static%20Variables.pdf">Static Variables</a><br/>
+                        <a target="_blank" href="https://maryash.github.io/135/slides/5.9%20Reference%20Parameters.pdf">Reference Parameters</a><br/>
+                    </td>
+                    <td className="border border-slate-700 p-0 text-center text-blue-700 font-bold">
+                        <a target="_blank" href="/#/Project_1">Project 1</a><br/>
                     </td>
                 </tr>
             </tbody>

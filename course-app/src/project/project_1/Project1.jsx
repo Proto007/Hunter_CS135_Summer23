@@ -384,7 +384,7 @@ bool revealLetter(string word, char letter, string &current)`
                     <h1 className="row-span-1 col-span-2 px-10 pt-5 font-mono text-xl md:text-2xl lg:text-3xl font-bold text-center">Task D: Hangman</h1>
                     <img src={game} alt="catto" className="col-span-2 xl:col-span-1 row-span-1 hidden xl:block m-5 brightness-125 rounded-md ring-2 ring-black drop-shadow-xl object-fill w-full overflow-hidden xl:h-4/6"></img>
                     <div className="col-span-2 xl:col-span-1 row-span-1 overflow-y-scroll p-5 font-serif tracking-wider sm-text-sm md:text-md lg:text-lg h-full w-full">
-                        Now we are ready to make Hangman! Oh and <a className="text-blue-700" href={dictionary} download>here is a dictionary you can use</a>.<br/><br/>
+                        Now we are ready to make Hangman! Oh and <a className="text-blue-700" href={dictionary} download="dictionary.txt">here is a dictionary you can use</a>.<br/><br/>
                         The game-loop is a sequence of processes that run continuously as long as the game is running. The three main processes that occur in the game-loop are input, update, and render. Lucky for you, we have provided the game-loop. Make sure to include the following function in your program:
                         <SyntaxHighlighter language="c" style={tomorrowNightBlue} className="rounded-md my-5 select-all flex-none overflow-x-scroll">
                             {taskDGameLoop}

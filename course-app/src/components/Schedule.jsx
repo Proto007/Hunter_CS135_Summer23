@@ -109,6 +109,25 @@ export default function Schedule(){
                         <a target="_blank" href="/#/Project_1">Project 1</a><br/>
                     </td>
                 </tr>
+                <tr>
+                    <td className="border border-slate-700 p-2 text-center">06/21/2023</td>
+                    <td className="border border-slate-700 p-2 text-center">
+                        Arrays<br/>
+                        Array Algorithms<br/>
+                        2D Arrays
+                    </td>
+                    <td className="border border-slate-700 p-2 text-center text-blue-700 font-bold">
+                        <a target="_blank" href="https://maryash.github.io/135/slides/6.1%20Arrays.pdf">Arrays</a><br/>
+                        <a target="_blank" href="https://maryash.github.io/135/slides/6.2%20Common%20Array%20Algorithms.pdf">Common Arrays Algorithms</a><br/>
+                        <a target="_blank" href="https://maryash.github.io/135/slides/6.3%20Arrays%20and%20Functions.pdf">Arrays and Functions</a><br/>
+                        <a target="_blank" href="https://maryash.github.io/135/slides/6.4%20PS%20Adapting%20Algorithms%20_%206.5%20Discovering%20Algorithms.pdf">Adapting Algorithms</a><br/>
+                        <a target="_blank" href="https://maryash.github.io/135/slides/6.6%202D%20Arrays.pdf">2D Arrays</a><br/>
+                    </td>
+                    <td className="border border-slate-700 p-1 text-center text-blue-700 font-bold">
+                        <a target="_blank" href="https://maryash.github.io/135/labs/lab_05.html">Lab 5</a><br/>
+                        <a target="_blank" href="/Hunter_CS135_Summer23/recitation_slides/Lab_5.pdf">Slides</a><br/>
+                    </td>
+                </tr>
             </tbody>
         </table></div>
     )

@@ -128,6 +128,36 @@ export default function Schedule(){
                         <a target="_blank" href="/Hunter_CS135_Summer23/recitation_slides/Lab_5.pdf">Slides</a><br/>
                     </td>
                 </tr>
+                <tr>
+                    <td className="border border-slate-700 p-2 text-center">06/26/2023</td>
+                    <td className="border border-slate-700 p-2 text-center">
+                        Pointers<br/>
+                        File Streams
+                    </td>
+                    <td className="border border-slate-700 p-2 text-center text-blue-700 font-bold">
+                        <a target="_blank" href="https://maryash.github.io/135/slides/MyPointers.pdf">Intro to Pointers</a><br/>
+                        <a target="_blank" href="https://maryash.github.io/135/slides/7.1%20Defining%20and%20Using%20Pointers.pdf">Pointers Continued</a><br/>
+                        <a target="_blank" href="https://maryash.github.io/135/slides/7.2%20Arrays%20and%20Pointers.pdf">Arrays and Pointers</a><br/>
+                        <a target="_blank" href="https://maryash.github.io/135/slides/8.1%20Reading%20and%20Writing%20Text%20Files.pdf">Streams</a><br/>
+                    </td>
+                    <td className="border border-slate-700 p-1 text-center text-blue-700 font-bold">
+                        <a target="_blank" href="https://maryash.github.io/135/labs/lab_06.html">Lab 6</a><br/>
+                        <a target="_blank" href="/Hunter_CS135_Summer23/recitation_slides/Lab_6.pdf">Slides</a><br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td className="border border-slate-700 p-2 text-center">06/28/2023</td>
+                    <td className="border border-slate-700 p-2 text-center">
+                        Midterm Review
+                    </td>
+                    <td className="border border-slate-700 p-2 text-center text-blue-700 font-bold">
+                        <a target="_blank" href="/Hunter_CS135_Summer23/">Midterm Review</a><br/>
+                    </td>
+                    <td className="border border-slate-700 p-1 text-center text-blue-700 font-bold">
+                        <a target="_blank" href="https://maryash.github.io/135/labs/lab_07.html">Lab 7</a><br/>
+                        <a target="_blank" href="/Hunter_CS135_Summer23/recitation_slides/Lab_7.pdf">Slides</a><br/>
+                    </td>
+                </tr>
             </tbody>
         </table></div>
     )

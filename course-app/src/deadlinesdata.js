@@ -19,4 +19,14 @@ export const deadlinesData = [
         deadline: "06/28/2023 11:00 AM",
         type: "project"
     },
+    {
+        name: "Lab 6",
+        deadline: "07/03/2023 11:00 AM",
+        type: "lab"
+    },
+    {
+        name: "Lab 7",
+        deadline: "07/03/2023 11:00 AM",
+        type: "lab"
+    },
 ]

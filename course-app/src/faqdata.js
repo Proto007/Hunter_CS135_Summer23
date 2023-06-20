@@ -35,4 +35,8 @@ export const faqData = [
         question: "Do I need to pass the final in order to pass the class?",
         answer: "Nope. You can pass the class even if you fail the final.",
     },
+    {
+        question: "Can I bring a cheat sheet for the exams?",
+        answer: "No. A cheat sheet will be provided to you."
+    },
 ]

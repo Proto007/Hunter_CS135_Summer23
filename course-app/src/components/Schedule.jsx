@@ -1,6 +1,6 @@
 export default function Schedule(){
     return(
-        <div className="overflow-auto w-10/12"><table className="border-collapse border border-slate-500 font-mono w-full">
+        <div className="overflow-auto w-10/12"><table className="border-separate border border-slate-500 font-mono w-full">
             <thead>
                 <tr className="bg-black text-white">
                     <th className="border border-slate-600 p-3">Date</th>
@@ -148,14 +148,27 @@ export default function Schedule(){
                 <tr>
                     <td className="border border-slate-700 p-2 text-center">06/28/2023</td>
                     <td className="border border-slate-700 p-2 text-center">
-                        Midterm Review
+                        Midterm Review<br/>
                     </td>
                     <td className="border border-slate-700 p-2 text-center text-blue-700 font-bold">
-                        <a target="_blank" href="/Hunter_CS135_Summer23/">Midterm Review</a><br/>
+                        <a target="_blank" href="/Hunter_CS135_Summer23/extra_content/midterm_review.pdf">Midterm Review</a><br/>
                     </td>
                     <td className="border border-slate-700 p-1 text-center text-blue-700 font-bold">
                         <a target="_blank" href="https://maryash.github.io/135/labs/lab_07.html">Lab 7</a><br/>
                         <a target="_blank" href="/Hunter_CS135_Summer23/recitation_slides/Lab_7.pdf">Slides</a><br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td className="border border-slate-700 p-2 text-center text-red-700 font-bold">07/03/2023</td>
+                    <td className="border border-slate-700 p-2 text-center text-red-700 font-bold">
+                        MIDTERM EXAM<br/>
+                    </td>
+                    <td className="border border-slate-700 p-2 text-center text-red-700 font-bold">
+                        MIDTERM EXAM
+                    </td>
+                    <td className="border border-slate-700 p-1 text-center text-blue-700 font-bold">
+                        <a target="_blank" href="https://maryash.github.io/135/labs/lab_08.html">Lab 8</a><br/>
+                        <a target="_blank" href="/Hunter_CS135_Summer23/recitation_slides/Lab_8.pdf">Slides</a><br/>
                     </td>
                 </tr>
             </tbody>

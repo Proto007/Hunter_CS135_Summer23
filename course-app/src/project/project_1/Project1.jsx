@@ -189,8 +189,8 @@ void gameLoop() {
 
 string getRandomWord() {
     srand((unsigned) time(NULL));
-    int index = rand() % g_word_count;
-    return g_words[index];
+    int index = rand() % word_count;
+    return words[index];
 }`
     const taskDMask = `/**
     @param            :   The string with a word from the dictionary 

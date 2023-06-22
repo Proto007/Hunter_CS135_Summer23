@@ -113,7 +113,7 @@ export default function Schedule(){
                     <td className="border border-slate-700 p-2 text-center">06/21/2023</td>
                     <td className="border border-slate-700 p-2 text-center">
                         Arrays<br/>
-                        Array Algorithms<br/>
+                        Array Algorithms(<a className="text-blue-700 font-bold" href="/Hunter_CS135_Summer23/extra_content/arrays.cpp" download>code</a>)<br/>
                         2D Arrays
                     </td>
                     <td className="border border-slate-700 p-2 text-center text-blue-700 font-bold">

@@ -91,10 +91,11 @@ export function CourseInfo() {
                     <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
                         <dt className="text-sm font-mono font-semibold leading-6 text-black">Tutoring hours</dt>
                         <dd className="mt-1 text-sm font-mono leading-6 text-gray-900 sm:col-span-2 sm:mt-0">
-                            Monday 4:00 pm - 5:00 pm<br/>
-                            Tuesday 4:00 pm - 5:00 pm<br/>
-                            Wednesday 4:00 pm - 5:00 pm<br/>
-                            Thursday 4:00 pm - 5:00 pm
+                            In-Person (HN1001C):<br/>
+                            <p className='indent-10'>Monday 4:00 pm - 5:00 pm</p>
+                            <p className='indent-10'>Wednesday 4:00 pm - 5:00 pm</p>
+                            Online (<a className="text-blue-700 font-bold" target="_blank" href="https://us02web.zoom.us/j/88367352955?pwd=ZFAxVUhESTZVSVp5TkZjY3NwMG9XZz09">Zoom</a>):<br/>
+                            <p className='indent-10'>Friday 2:00 pm - 4:00 pm</p>
                         </dd>
                     </div>
                     <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">

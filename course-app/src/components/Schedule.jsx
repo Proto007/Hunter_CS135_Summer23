@@ -135,8 +135,8 @@ export default function Schedule(){
                         File Streams
                     </td>
                     <td className="border border-slate-700 p-2 text-center text-blue-700 font-bold">
-                        <a target="_blank" href="https://maryash.github.io/135/slides/MyPointers.pdf">Intro to Pointers</a><br/>
-                        <a target="_blank" href="https://maryash.github.io/135/slides/7.1%20Defining%20and%20Using%20Pointers.pdf">Pointers Continued</a><br/>
+                        {/* <a target="_blank" href="https://maryash.github.io/135/slides/MyPointers.pdf">Intro to Pointers</a><br/> */}
+                        <a target="_blank" href="https://maryash.github.io/135/slides/7.1%20Defining%20and%20Using%20Pointers.pdf">Pointers</a><br/>
                         <a target="_blank" href="https://maryash.github.io/135/slides/7.2%20Arrays%20and%20Pointers.pdf">Arrays and Pointers</a><br/>
                         <a target="_blank" href="https://maryash.github.io/135/slides/8.1%20Reading%20and%20Writing%20Text%20Files.pdf">Streams</a><br/>
                     </td>

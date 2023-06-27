@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { SlGraduation, SlLink, SlClock } from 'react-icons/sl'
 import { ImLab } from 'react-icons/im'
 import { LuSchool } from 'react-icons/lu'
-import { AiOutlineFundProjectionScreen } from 'react-icons/ai'
+import { AiOutlineFundProjectionScreen, AiTwotoneCalendar } from 'react-icons/ai'
 
 export const Info = ( assignments ) => {
     const [selected, setSelected] = useState(2);
@@ -121,6 +121,7 @@ export function Deadlines({ assignments }){
                                 {assignment.type == "lab" && <ImLab size={70}/>}
                                 {assignment.type == "classwork/homework" && <LuSchool size={70}/>}
                                 {assignment.type == "project" && <AiOutlineFundProjectionScreen size={70}/>}
+                                {assignment.type == "exam" && <AiTwotoneCalendar size={70}/>}
                                 <br/>
                                 {assignment.name}<br/>
                                 {assignment.deadline}

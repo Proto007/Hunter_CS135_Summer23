@@ -152,6 +152,7 @@ export default function Schedule(){
                     </td>
                     <td className="border border-slate-700 p-2 text-center text-blue-700 font-bold">
                         <a target="_blank" href="/Hunter_CS135_Summer23/extra_content/midterm_review.pdf">Midterm Review</a><br/>
+                        <a target="_blank" href="/Hunter_CS135_Summer23/extra_content/ExamFormat.pdf">Exam Format</a><br/>
                     </td>
                     <td className="border border-slate-700 p-1 text-center text-blue-700 font-bold">
                         <a target="_blank" href="https://maryash.github.io/135/labs/lab_07.html">Lab 7</a><br/>

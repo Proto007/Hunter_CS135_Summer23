@@ -1,10 +1,5 @@
 export const deadlinesData = [
     {
-        name: "Project 1 C and D",
-        deadline: "06/28/2023 11:00 AM",
-        type: "project"
-    },
-    {
         name: "Homework 4",
         deadline : "07/02/2023 11:59 PM",
         type : "classwork/homework"

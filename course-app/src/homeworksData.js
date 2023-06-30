@@ -65,6 +65,14 @@ export const homeworksData = [
             due: "07/02/2023 11:59 PM",
             link: "https://www.gradescope.com/courses/545354/assignments/2955065",
             prompt: 'Write a program that carries out the following tasks:\n\n- Open a file named hello.txt\n- Store the message "Hello, World!" in the file\n- Close the file\n- Open the same file again\n- Read the contents of the file into a string variable and print it'
-        }
+        },
+    ],
+    [
+        {
+            name: "5A",
+            due: "07/09/2023 11:59 PM",
+            link: "https://www.gradescope.com/courses/545354/assignments/2963861",
+            prompt:'Write a function `void sort2(double* p, double* q)` that receieves two pointers and sorts the values to which they point. If you call `sort2(&x, &y)` then x <= y after the call.\n\nExample: x = 7, y = 2; sort2(&x, &y) => x becomes 2, y becomes 7' 
+        },
     ]
 ]

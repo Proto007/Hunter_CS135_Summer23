@@ -18,5 +18,10 @@ export const deadlinesData = [
         name: "MIDTERM",
         deadline: "07/03/2023 11:40 AM IN-CLASS",
         type: "exam"
-    }
+    },
+    {
+        name: "Homework 5",
+        deadline : "07/09/2023 11:59 PM",
+        type : "classwork/homework"
+    },
 ]

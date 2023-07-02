@@ -187,6 +187,24 @@ export default function Schedule(midterm){
                         <a target="_blank" href="/Hunter_CS135_Summer23/recitation_slides/Lab_8.pdf">Slides</a><br/>
                     </td>
                 </tr>
+                <tr>
+                    <td className="border border-slate-700 p-2 text-center">07/05/2023</td>
+                    <td className="border border-slate-700 p-2 text-center">
+                        Dynamic Memory Allocation<br/>
+                        Pointer Arrays(<a className="text-blue-700 font-bold" target="_blank" href="https://is.gd/00MNC7">code</a>)<br/>
+                        Introduction to Classes
+                    </td>
+                    <td className="border border-slate-700 p-2 text-center text-blue-700 font-bold">
+                        <a target="_blank" href="https://maryash.github.io/135/slides/7.4%20Dynamic%20Memory%20Allocation.pdf">Dynamic Memory</a><br/>
+                        <a target="_blank" href="https://maryash.github.io/135/slides/7.5-6%20Arrays%20of%20Pointers%20_%20PS%20Draw%20a%20Picture.pdf">Arrays of Pointers</a><br/>
+                        <a target="_blank" href="https://www.youtube.com/watch?v=3m4bxse2JEQ">Galton Board</a><br/>
+                        <a target="_blank" href="https://maryash.github.io/135/slides/7.7-8%20Classes%20of%20Objects%20_%20Pointers%20and%20Objects.pdf">Classes</a><br/>
+                    </td>
+                    <td className="border border-slate-700 p-1 text-center text-blue-700 font-bold">
+                        <a target="_blank" href="https://maryash.github.io/135/labs/lab_06.html">Lab 6</a><br/>
+                        <a target="_blank" href="/Hunter_CS135_Summer23/recitation_slides/Lab_6.pdf">Slides</a><br/>
+                    </td>
+                </tr>
             </tbody>}
         </table></div>
     )

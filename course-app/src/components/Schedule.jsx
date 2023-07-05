@@ -191,6 +191,7 @@ export default function Schedule(midterm){
                     <td className="border border-slate-700 p-2 text-center">07/05/2023</td>
                     <td className="border border-slate-700 p-2 text-center">
                         Dynamic Memory Allocation<br/>
+                        Dynamic Arrays(<a className="text-blue-700 font-bold" href="/Hunter_CS135_Summer23/extra_content/dynamic.cpp" download>code</a>)<br/>
                         Pointer Arrays(<a className="text-blue-700 font-bold" target="_blank" href="https://is.gd/00MNC7">code</a>)<br/>
                         Introduction to Classes
                     </td>

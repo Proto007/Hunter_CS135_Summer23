@@ -74,5 +74,19 @@ export const homeworksData = [
             link: "https://www.gradescope.com/courses/545354/assignments/2963861",
             prompt:'Write a function `void sort2(double* p, double* q)` that receieves two pointers and sorts the values to which they point. If you call `sort2(&x, &y)` then x <= y after the call.\n\nExample: x = 7, y = 2; sort2(&x, &y) => x becomes 2, y becomes 7' 
         },
+    ],
+    [
+        {
+            name: "6A",
+            due: "07/16/2023 11:59 PM",
+            link: "https://www.gradescope.com/courses/545354/assignments/2970705",
+            prompt:'Define a class Point. A Point has an x-coordinate value and a y-coordinate value. Write a function `double distance(Point a, Point b)` that computes the distance from a to b. Write a program that reads the coordinates of the points, calls your function, and displays the result.' 
+        },
+        {
+            name: "6B",
+            due: "07/16/2023 11:59 PM",
+            link: "https://www.gradescope.com/courses/545354/assignments/2970705",
+            prompt:'Define a class `Triangle` that contains three Point members from 6A. Write a function `double perimeter(Triangle t)` that computes the perimeter of a Triangle. Write a program that reads the coordinates of the points, calls your function, and displays the result.' 
+        },
     ]
 ]

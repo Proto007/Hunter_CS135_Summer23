@@ -418,7 +418,7 @@ bool revealLetter(string word, char letter, string &current)`
                     <div className="col-span-1 row-span-1 py-2 font-mono text-xs md:text-sm lg-text-md h-full px-5">
                         Every project starts somewhere. While the hangman game is functional, it can be improved significantly. For example: we can prevent users from entering letters that have been entered already, we can add a GUI to make the experience more user-friendly and the list goes on. You can add your own rules to the game to make something unique that you can put in your Portfolio to impress your friends and potential recruiters.
                     </div>
-                    <div className="col-span-1 row-span-1 overflow-y-scroll p-2 font-serif tracking-wider text-lg h-full text-center italic text-black/50">
+                    <div className="col-span-1 row-span-1 p-2 font-serif tracking-wider text-lg h-full text-center italic text-black/50">
                         Credits: Sadab Hafiz, Ryan Vaz, Yoomin Song
                     </div>
                 </div>

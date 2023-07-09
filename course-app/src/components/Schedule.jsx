@@ -206,6 +206,25 @@ export default function Schedule(midterm){
                         <a target="_blank" href="/Hunter_CS135_Summer23/recitation_slides/Lab_9.pdf">Slides</a><br/>
                     </td>
                 </tr>
+                <tr>
+                    <td className="border border-slate-700 p-2 text-center">07/10/2023</td>
+                    <td className="border border-slate-700 p-2 text-center">
+                        Object-Oriented-Programming<br/>
+                        Separate Compilation<br/>
+                        Enums
+                    </td>
+                    <td className="border border-slate-700 p-2 text-center text-blue-700 font-bold">
+                        <a target="_blank" href="https://maryash.github.io/135/slides/9.1-2%20Object%20Oriented%20Programming%20_%20Implementing%20a%20Simple%20Class.pdf">OOP</a><br/>
+                        <a target="_blank" href="https://maryash.github.io/135/slides/9.3-5%20Specifying%20the%20Public%20Interface%20_%20Designing%20the%20Data%20Representation%20_%20Member%20Functions.pdf">Access Specifiers</a><br/>
+                        <a target="_blank" href="https://maryash.github.io/135/slides/9.6%20Constructors.pdf">Constructors</a><br/>
+                        <a target="_blank" href="https://maryash.github.io/135/slides/9.9%20Separate%20Compilation.pdf">Separate Compilation</a><br/>
+                        <a target="_blank" href="https://maryash.github.io/135/slides/Enums.pdf">Enums</a><br/>
+                    </td>
+                    <td className="border border-slate-700 p-1 text-center text-blue-700 font-bold">
+                        <a target="_blank" href="https://maryash.github.io/135/labs/lab_10.html">Lab 10</a><br/>
+                        <a target="_blank" href="/Hunter_CS135_Summer23/recitation_slides/Lab_10.pdf">Slides</a><br/>
+                    </td>
+                </tr>
             </tbody>}
         </table></div>
     )

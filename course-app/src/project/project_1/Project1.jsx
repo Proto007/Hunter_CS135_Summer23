@@ -279,13 +279,13 @@ bool revealLetter(string word, char letter, string &current)`
                 }
             </div>
             <div className="overflow-y-scroll bg-slate-50 snap-y snap-mandatory">
-                <div className="text-center bg-gradient-to-b from-red-100 via-green-100 to-blue-100 hover:bg-gradient-to-t hover:from-red-100 hover:via-green-100 hover:to-blue-100 text-black lg:snap-start">
+                <div className="text-center bg-gradient-to-b from-red-100 via-green-100 to-blue-100 hover:bg-gradient-to-t hover:from-red-100 hover:via-green-100 hover:to-blue-100 text-black snap-start">
                     <h1 className="font-semibold text-xl md:text-2xl lg:text-3xl p-5 font-mono">Project 1 - Hang in there!</h1>
                     <p className="px-5 pb-5 font-serif text-sm lg:text-base tracking-wide">You must start working on the projects as soon as they are assigned to detect any problems and to address them with us well before the deadline so that we have time to get back to you before the deadline. There will be no extensions and no negotiation about project grades after the submission deadline with respect to the lateness policy.</p>
                     <hr className="drop-shadow-xl border-black"/>
                 </div>
 
-                <div id="introduction" className="grid grid-flow-row grid-cols-2 gap-x-5 justify-center h-screen lg:snap-start">
+                <div id="introduction" className="grid grid-flow-row grid-cols-2 gap-x-5 justify-center h-screen snap-start">
                     <h1 className="row-span-1 col-span-2 px-10 pt-5 font-mono text-xl md:text-2xl lg:text-3xl font-bold text-center">Introduction</h1>
                     <h1 className="row-span-1 col-span-2 px-10 font-serif font-semibold text-md md:text-lg lg:text-xl text-center italic">Welcome students! You've been working on the labs and homeworks so far. Its time to take it up a notch. Use everything you've learned so far and hang in there!</h1>
                     <img src={hangin} alt="sadab" className="col-span-2 xl:col-span-1 row-span-1 hidden xl:block m-5 brightness-125 rounded-md ring-2 ring-black drop-shadow-xl object-fill w-full overflow-hidden"></img>
@@ -311,7 +311,7 @@ bool revealLetter(string word, char letter, string &current)`
                     </div>
                 </div>
                 <hr className="mt-10"/>
-                <div id="taskA" className="grid grid-flow-row grid-cols-2 gap-5 justify-center h-screen lg:snap-start">
+                <div id="taskA" className="grid grid-flow-row grid-cols-2 gap-5 justify-center h-screen snap-start">
                     <h1 className="row-span-1 col-span-2 px-10 pt-5 font-mono text-xl md:text-2xl lg:text-3xl font-bold text-center">Task A - Dictionary using Arrays</h1>
                     <img src={horrible} alt="krabs" className="col-span-2 xl:col-span-1 row-span-1 hidden xl:block m-5 brightness-125 rounded-md ring-2 ring-black drop-shadow-xl object-fill w-full overflow-hidden"></img>
                     <div className="col-span-2 xl:col-span-1 row-span-1 overflow-y-auto p-5 font-serif tracking-wider sm-text-sm md:text-md lg:text-lg h-full">
@@ -337,7 +337,7 @@ bool revealLetter(string word, char letter, string &current)`
                     </div>
                 </div>
                 <hr className="mt-10"/>
-                <div id="taskB" className="grid grid-flow-row grid-cols-2 gap-5 justify-center h-screen lg:snap-start">
+                <div id="taskB" className="grid grid-flow-row grid-cols-2 gap-5 justify-center h-screen snap-start">
                     <h1 className="row-span-1 col-span-2 px-10 pt-5 font-mono text-xl md:text-2xl lg:text-3xl font-bold text-center">Task B: Dictionary Operations</h1>
                     <img src={cat} alt="catto" className="col-span-2 xl:col-span-1 hidden xl:block row-span-1 m-5 brightness-125 rounded-md ring-2 ring-black drop-shadow-xl object-fill w-full overflow-hidden"></img>
                     <div className="col-span-2 xl:col-span-1 row-span-1 overflow-y-auto p-5 font-serif tracking-wider sm-text-sm md:text-md lg:text-lg h-full">
@@ -359,7 +359,7 @@ bool revealLetter(string word, char letter, string &current)`
                     </div>
                 </div>
                 <hr className="mt-10"/>
-                <div id="taskC" className="grid grid-flow-row grid-cols-2 gap-5 justify-center h-screen lg:snap-start">
+                <div id="taskC" className="grid grid-flow-row grid-cols-2 gap-5 justify-center h-screen snap-start">
                     <h1 className="row-span-1 col-span-2 px-10 pt-5 font-mono text-xl md:text-2xl lg:text-3xl font-bold text-center">Task C: Dictionary Admin Operations</h1>
                     <img src={yeet} alt="catto" className="col-span-2 xl:col-span-1 row-span-1 hidden xl:block m-5 brightness-125 rounded-md ring-2 ring-black drop-shadow-xl object-fill w-full overflow-hidden xl:h-4/6"></img>
                     <div className="col-span-2 xl:col-span-1 row-span-1 overflow-y-auto p-5 font-serif tracking-wider sm-text-sm md:text-md lg:text-lg h-full">
@@ -380,7 +380,7 @@ bool revealLetter(string word, char letter, string &current)`
                     </div>
                 </div>
                 <hr className="mt-10"/>
-                <div id="taskD" className="grid grid-flow-row grid-cols-2 gap-5 justify-center h-screen lg:snap-start">
+                <div id="taskD" className="grid grid-flow-row grid-cols-2 gap-5 justify-center h-screen snap-start">
                     <h1 className="row-span-1 col-span-2 px-10 pt-5 font-mono text-xl md:text-2xl lg:text-3xl font-bold text-center">Task D: Hangman</h1>
                     <img src={game} alt="catto" className="col-span-2 xl:col-span-1 row-span-1 hidden xl:block m-5 brightness-125 rounded-md ring-2 ring-black drop-shadow-xl object-fill w-full overflow-hidden xl:h-4/6"></img>
                     <div className="col-span-2 xl:col-span-1 row-span-1 overflow-y-scroll p-5 font-serif tracking-wider sm-text-sm md:text-md lg:text-lg h-full w-full">
@@ -413,7 +413,7 @@ bool revealLetter(string word, char letter, string &current)`
                     </div>
                 </div>
                 <hr className="mt-10"/>
-                <div id="taskD" className="grid grid-flow-row gap-5 justify-center lg:snap-start">
+                <div id="outro" className="grid grid-flow-row gap-5 justify-center snap-start">
                     <h1 className="row-span-1 px-10 pt-5 font-mono text-xl md:text-2xl lg:text-3xl font-bold text-center">Endnote</h1>
                     <div className="col-span-1 row-span-1 py-2 font-mono text-xs md:text-sm lg-text-md h-full px-5">
                         Every project starts somewhere. While the hangman game is functional, it can be improved significantly. For example: we can prevent users from entering letters that have been entered already, we can add a GUI to make the experience more user-friendly and the list goes on. You can add your own rules to the game to make something unique that you can put in your Portfolio to impress your friends and potential recruiters.

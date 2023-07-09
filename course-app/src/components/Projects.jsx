@@ -40,6 +40,20 @@ export default function Projects() {
                     </a>
                 )}
                 </Menu.Item>
+                <Menu.Item>
+                {({ active }) => (
+                    <a
+                    className={classNames(
+                        active ? 'bg-black text-white': 'text-black',
+                        'block px-4 py-2'
+                    )}
+                    target="_blank"
+                    href="/Hunter_CS135_Summer23/#/Project_2"
+                    >
+                    Project 2
+                    </a>
+                )}
+                </Menu.Item>
             </Menu.Items>
         </Transition>
     </Menu>

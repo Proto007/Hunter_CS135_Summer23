@@ -45,7 +45,7 @@ int getSpecialty();`
     const skillNameSetter = `/**
     @post       :   set the name of the skill equal to the given parameter.
 */
-bool setName(std::string name);`
+void setName(std::string name);`
     const skillDescSetter = `/**
     @return     :   return \`true\` if the given \`description\` is atleast 25
                     characters long, otherwise return \`false\`.
@@ -558,7 +558,7 @@ class HardwareDepartment: public Trainer{
                         Each trainer has a team of four profémons and a profédex. The profédex serves as a storage for all the profémons collected by the trainer. Each trainer also has a profémon which they choose to accompany them on their adventures!<br/><br/>
                         Since the Department classes will inherit from the <p className="inline bg-gray-500 text-white font-mono rounded-md px-2">Trainer</p>, the <p className="inline bg-gray-500 text-white font-mono rounded-md px-2">Trainer</p> class should have the following <p className="inline bg-gray-500 text-white font-mono rounded-md px-2">protected</p> data members:
                         <SyntaxHighlighter language="plaintext" style={tomorrowNightBlue} className="rounded-md my-2 select-all">
-                            {skillData}
+                            {trainerData}
                         </SyntaxHighlighter>
                         Define and implement the <p className="inline bg-gray-500 text-white font-mono rounded-md px-2">Skill</p> and <p className="inline bg-gray-500 text-white font-mono rounded-md px-2">Profemon</p> class with a header and a source file (from now on, when you implement a class, assume you will implement two files: <p className="inline bg-gray-500 text-white font-mono rounded-md px-2">.hpp</p> and <p className="inline bg-gray-500 text-white font-mono rounded-md px-2">.cpp</p>).<br/><br/>
                         The <p className="inline bg-gray-500 text-white font-mono rounded-md px-2">Trainer</p> class must have the following in it's <p className="inline bg-gray-500 text-white font-mono rounded-md px-2">public</p> access modifier:

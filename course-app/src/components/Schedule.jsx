@@ -225,6 +225,24 @@ export default function Schedule(midterm){
                         <a target="_blank" href="/Hunter_CS135_Summer23/recitation_slides/Lab_10.pdf">Slides</a><br/>
                     </td>
                 </tr>
+                <tr>
+                    <td className="border border-slate-700 p-2 text-center">07/10/2023</td>
+                    <td className="border border-slate-700 p-2 text-center">
+                        OOP Example<br/>
+                        Inheritance<br/>
+                        Vectors<br/>
+                    </td>
+                    <td className="border border-slate-700 p-2 text-center text-blue-700 font-bold">
+                        <a target="_blank" href="https://maryash.github.io/135/slides/6.7%20Vectors.pdf">Vectors</a><br/>
+                        <a target="_blank" href="https://maryash.github.io/135/slides/10.1%20Inheritance%20Hierarchies.pdf">Inheritance</a><br/>
+                        <a target="_blank" href="https://maryash.github.io/135/slides/10.2%20Implementing%20Derived%20Classes.pdf">Derived Classes</a><br/>
+                        <a target="_blank" href="https://maryash.github.io/135/slides/10.3%20Overriding%20Member%20Functions.pdf">Overriding</a><br/>
+                    </td>
+                    <td className="border border-slate-700 p-1 text-center text-blue-700 font-bold">
+                        <a target="_blank" href="https://maryash.github.io/135/labs/lab_11.html">Lab 11</a><br/>
+                        <a target="_blank" href="/Hunter_CS135_Summer23/recitation_slides/Lab_11.pdf">Slides</a><br/>
+                    </td>
+                </tr>
             </tbody>}
         </table></div>
     )

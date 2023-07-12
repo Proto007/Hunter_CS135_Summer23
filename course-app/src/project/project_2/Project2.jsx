@@ -386,7 +386,7 @@ class HardwareDepartment: public Trainer{
             </div>
             <div className="overflow-y-scroll bg-slate-50 snap-y snap-mandatory">
                 <div className="text-center bg-gradient-to-b from-red-100 via-green-100 to-blue-100 hover:bg-gradient-to-t hover:from-red-100 hover:via-green-100 hover:to-blue-100 text-black snap-start">
-                    <h1 className="font-semibold text-xl md:text-2xl lg:text-3xl p-5 font-mono">Project 3: Profémon!</h1>
+                    <h1 className="font-semibold text-xl md:text-2xl lg:text-3xl p-5 font-mono">Project 2: Profémon!</h1>
                     <p className="px-5 pb-5 font-serif text-sm lg:text-base tracking-wide">You must start working on the projects as soon as they are assigned to detect any problems and to address them with us well before the deadline so that we have time to get back to you before the deadline. There will be no extensions and no negotiation about project grades after the submission deadline with respect to the lateness policy.</p>
                     <hr className="drop-shadow-xl border-black"/>
                 </div>

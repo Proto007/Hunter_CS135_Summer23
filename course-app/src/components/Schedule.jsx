@@ -229,7 +229,7 @@ export default function Schedule(midterm){
                     <td className="border border-slate-700 p-2 text-center">07/10/2023</td>
                     <td className="border border-slate-700 p-2 text-center">
                         OOP Example<br/>
-                        Inheritance<br/>
+                        Inheritance(<a className="text-blue-700 font-bold" href="/Hunter_CS135_Summer23/extra_content/example.zip" download>code</a>)<br/>
                         Vectors<br/>
                     </td>
                     <td className="border border-slate-700 p-2 text-center text-blue-700 font-bold">
@@ -241,6 +241,62 @@ export default function Schedule(midterm){
                     <td className="border border-slate-700 p-1 text-center text-blue-700 font-bold">
                         <a target="_blank" href="https://maryash.github.io/135/labs/lab_11.html">Lab 11</a><br/>
                         <a target="_blank" href="/Hunter_CS135_Summer23/recitation_slides/Lab_11.pdf">Slides</a><br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td className="border border-slate-700 p-2 text-center">07/19/2023</td>
+                    <td className="border border-slate-700 p-2 text-center">
+                        Vector and Classes Example<br/>
+                        Virtual Classes<br/>
+                        Recursion<br/>
+                    </td>
+                    <td className="border border-slate-700 p-2 text-center text-blue-700 font-bold">
+                        <a target="_blank" href="https://maryash.github.io/135/slides/10.4%20Virtual%20Functions%20and%20Polymorphism.pdf">Virtual Classes</a><br/>
+                        <a target="_blank" href="https://maryash.github.io/135/slides/5.10%20Recursive%20Functions.pdf">Recursive Function</a><br/>
+                    </td>
+                    <td className="border border-slate-700 p-1 text-center text-blue-700 font-bold">
+                        <a target="_blank" href="https://maryash.github.io/135/labs/lab_12.html">Lab 12</a><br/>
+                        <a target="_blank" href="/Hunter_CS135_Summer23/recitation_slides/Lab_12.pdf">Slides</a><br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td className="border border-slate-700 p-2 text-center">07/17/2023</td>
+                    <td className="border border-slate-700 p-2 text-center">
+                        Templated Functions<br/>
+                        Linked List<br/>
+                        Templated Classes<br/>
+                    </td>
+                    <td className="border border-slate-700 p-2 text-center text-blue-700 font-bold">
+                        <a target="_blank" href="https://www.geeksforgeeks.org/templates-cpp/">Templates</a><br/>
+                        <a target="_blank" href="https://www.geeksforgeeks.org/data-structures/linked-list/">Linked List</a><br/> 
+                    </td>
+                    <td className="border border-slate-700 p-1 text-center text-blue-700 font-bold">
+                        <a target="_blank" href="https://maryash.github.io/135/labs/lab_13.html">Lab 13</a><br/>
+                        <a target="_blank" href="/Hunter_CS135_Summer23/recitation_slides/Lab_13.pdf">Slides</a><br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td className="border border-slate-700 p-2 text-center">07/24/2023</td>
+                    <td className="border border-slate-700 p-2 text-center">
+                        Final Exam Review<br/>
+                    </td>
+                    <td className="border border-slate-700 p-2 text-center text-blue-700 font-bold">
+                        TBA...
+                    </td>
+                    <td className="border border-slate-700 p-1 text-center text-blue-700 font-bold">
+                        TBA...
+                    </td>
+                </tr>
+                <tr>
+                    <td className="border border-slate-700 p-2 text-center text-red-700 font-bold">07/26/2023</td>
+                    <td className="border border-slate-700 p-2 text-center text-red-700 font-bold">
+                        FINAL EXAM<br/>
+                    </td>
+                    <td className="border border-slate-700 p-2 text-center text-red-700 font-bold">
+                        FINAL EXAM
+                    </td>
+                    <td className="border border-slate-700 p-1 text-center text-blue-700 font-bold">
+                        <a target="_blank" href="https://www.youtube.com/watch?v=tg2PD-dwsIw">Finally</a><br/>
                     </td>
                 </tr>
             </tbody>}

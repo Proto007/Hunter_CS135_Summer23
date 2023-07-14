@@ -85,8 +85,22 @@ export const homeworksData = [
         {
             name: "6B",
             due: "07/16/2023 11:59 PM",
-            link: "https://www.gradescope.com/courses/545354/assignments/2970705",
+            link: "https://www.gradescope.com/courses/545354/assignments/2970706",
             prompt:'Define a class `Triangle` that contains three Point members from 6A. Write a function `double perimeter(Triangle t)` that computes the perimeter of a Triangle. Write a program that reads the coordinates of the points, calls your function, and displays the result.' 
+        },
+    ],
+    [
+        {
+            name: "7A",
+            due: "07/23/2023 11:59 PM",
+            link: "https://www.gradescope.com/courses/545354/assignments/2977680",
+            prompt:'Implement a class `Rectangle`. Provide a constructor to construct a rectangle with a given width and height, member functions `float get_perimeter()` and `float get_area()` that compute the perimeter and area, and a member function `void resize(double factor)` that resizes the rectangle by multiplying the width and the height by the given float `factor`.' 
+        },
+        {
+            name: "7B",
+            due: "07/23/2023 11:59 PM",
+            link: "https://www.gradescope.com/courses/545354/assignments/2977681",
+            prompt:'Write a function `vector<int> merge_sorted(vector<int> a, vector<int> b)` that merges two sorted vectors, producing a new sorted vector. Keep an index into each vector, indicating how much of it has been processed already. Each time, append the smallest unprocessed element from either vector, then advance the index.\n\nExample: if a is [1,4,9,16] and b is [4,7,9,9,11] then `merged_sorted` returns the vector [1,4,4,7,9,9,9,11,16]' 
         },
     ]
 ]

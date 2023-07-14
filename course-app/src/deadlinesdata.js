@@ -34,4 +34,9 @@ export const deadlinesData = [
         deadline : "07/24/2023 11:00 AM",
         type: "project"
     },
+    {
+        name: "Project 3 - Extra Credit",
+        deadline : "07/26/2023 11:59 PM",
+        type: "project"
+    },
 ]

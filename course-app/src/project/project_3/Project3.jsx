@@ -232,7 +232,7 @@ export default function Project3(){
                             </tr>
                         </tbody>
                     </table>
-                    If you find this table confusing, feel free to ask me or Ryan during recitation and tutoring.
+                    If you find this table confusing, feel free to ask me or Ryan during recitation and tutoring. I will use the <a className="text-blue-300" target='_blank' href='https://hunter.cuny.edu/students/registration/records-and-transcripts/grading-structure/'>Hunter College grading structure</a> for letter grades.
                 </div>
             </div>
             <div className='mb-5 bg-gray-700 p-5 rounded-md'>

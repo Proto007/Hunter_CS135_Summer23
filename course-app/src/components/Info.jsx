@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from 'react'
 import { SlGraduation, SlLink, SlClock } from 'react-icons/sl'
 import { ImLab } from 'react-icons/im'
 import { LuSchool } from 'react-icons/lu'

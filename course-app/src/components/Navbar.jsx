@@ -1,6 +1,6 @@
-import { useState } from "react";
-import Homeworks from "./Homeworks";
-import Projects from "./Projects";
+import { useState } from "react"
+import Homeworks from "./Homeworks"
+import Projects from "./Projects"
 
 export default function Navbar(homeworks){
     const [showNav, toggle] = useState(false);

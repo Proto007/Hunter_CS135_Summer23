@@ -263,8 +263,8 @@ export default function Schedule(midterm){
                     <td className="border border-slate-700 p-2 text-center">07/17/2023</td>
                     <td className="border border-slate-700 p-2 text-center">
                         Templated Functions<br/>
-                        Linked List<br/>
                         Templated Classes<br/>
+                        Linked List<br/>
                     </td>
                     <td className="border border-slate-700 p-2 text-center text-blue-700 font-bold">
                         <a target="_blank" href="https://www.geeksforgeeks.org/templates-cpp/">Templates</a><br/>

@@ -1,9 +1,9 @@
-import Homepage from './components/Homepage';
+import Homepage from './components/Homepage'
 import './index.css'
-import { Routes, Route } from 'react-router-dom';
-import Project1 from './project/project_1/Project1';
-import Project2 from './project/project_2/Project2';
-import Project3 from './project/project_3/Project3';
+import { Routes, Route } from 'react-router-dom'
+import Project1 from './project/project_1/Project1'
+import Project2 from './project/project_2/Project2'
+import Project3 from './project/project_3/Project3'
 
 export default function App() {
   return (

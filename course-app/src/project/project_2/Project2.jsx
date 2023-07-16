@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { HashLink } from 'react-router-hash-link';
+import { HashLink } from 'react-router-hash-link'
 import SyntaxHighlighter from 'react-syntax-highlighter'
 import { tomorrowNightBlue } from 'react-syntax-highlighter/dist/esm/styles/hljs'
 import { AiOutlineDoubleLeft, AiOutlineDoubleRight } from "react-icons/ai"

@@ -1,5 +1,5 @@
-import React from "react";
-import expandController from "../expandController";
+import React from "react"
+import expandController from "../expandController"
 
 export const Faq = ({section}) => {
     const { isOpen, toggle } = expandController(false);

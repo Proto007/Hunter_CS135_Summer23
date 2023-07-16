@@ -1,4 +1,4 @@
-import { HashLink } from 'react-router-hash-link';
+import { HashLink } from 'react-router-hash-link'
 import grades from './grades.txt'
 import helper from './helper.txt'
 

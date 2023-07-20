@@ -346,19 +346,19 @@ void printTeam();`
 
 class MLDepartment: public Trainer{
     public:
-        MLDepartment(std::vector&lt;Profemon&gt; profemons);
+        MLDepartment(std::vector<Profemon> profemons);
         bool addProfemon(Profemon profemon);
 };
 
 class SoftwareDepartment: public Trainer{
     public:
-        SoftwareDepartment(std::vector&lt;Profemon&gt; profemons);
+        SoftwareDepartment(std::vector<Profemon> profemons);
         bool addProfemon(Profemon profemon);
 };
 
 class HardwareDepartment: public Trainer{
     public:
-        HardwareDepartment(std::vector&lt;Profemon&gt; profemons);
+        HardwareDepartment(std::vector<Profemon> profemons);
         bool addProfemon(Profemon profemon);
 };
 

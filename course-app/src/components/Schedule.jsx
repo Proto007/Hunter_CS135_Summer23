@@ -226,10 +226,10 @@ export default function Schedule(midterm){
                     </td>
                 </tr>
                 <tr>
-                    <td className="border border-slate-700 p-2 text-center">07/10/2023</td>
+                    <td className="border border-slate-700 p-2 text-center">07/12/2023</td>
                     <td className="border border-slate-700 p-2 text-center">
-                        OOP Example<br/>
-                        Inheritance(<a className="text-blue-700 font-bold" href="/Hunter_CS135_Summer23/extra_content/example.zip" download>code</a>)<br/>
+                        OOP Example(<a className="text-blue-700 font-bold" href="/Hunter_CS135_Summer23/extra_content/dictionary.zip" download>code</a>)<br/>
+                        Inheritance(<a className="text-blue-700 font-bold" href="/Hunter_CS135_Summer23/extra_content/inheritance.zip" download>code</a>)<br/>
                         Vectors<br/>
                     </td>
                     <td className="border border-slate-700 p-2 text-center text-blue-700 font-bold">
@@ -244,7 +244,7 @@ export default function Schedule(midterm){
                     </td>
                 </tr>
                 <tr>
-                    <td className="border border-slate-700 p-2 text-center">07/19/2023</td>
+                    <td className="border border-slate-700 p-2 text-center">07/17/2023</td>
                     <td className="border border-slate-700 p-2 text-center">
                         Vector and Classes Example<br/>
                         Virtual Classes<br/>
@@ -260,9 +260,9 @@ export default function Schedule(midterm){
                     </td>
                 </tr>
                 <tr>
-                    <td className="border border-slate-700 p-2 text-center">07/17/2023</td>
+                    <td className="border border-slate-700 p-2 text-center">07/19/2023</td>
                     <td className="border border-slate-700 p-2 text-center">
-                        Templated Functions<br/>
+                        Templated Functions(<a className="text-blue-700 font-bold" href="/Hunter_CS135_Summer23/extra_content/templates.cpp" download>code</a>)<br/>
                         Templated Classes<br/>
                         Linked List<br/>
                     </td>

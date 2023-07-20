@@ -264,11 +264,13 @@ export default function Schedule(midterm){
                     <td className="border border-slate-700 p-2 text-center">
                         Templated Functions(<a className="text-blue-700 font-bold" href="/Hunter_CS135_Summer23/extra_content/templates.cpp" download>code</a>)<br/>
                         Templated Classes<br/>
-                        Linked List<br/>
+                        Linked List(<a className="text-blue-700 font-bold" href="/Hunter_CS135_Summer23/extra_content/linkedlist.zip" download>code</a>)<br/>
+                        Operator Overloading<br/>
                     </td>
                     <td className="border border-slate-700 p-2 text-center text-blue-700 font-bold">
                         <a target="_blank" href="https://www.geeksforgeeks.org/templates-cpp/">Templates</a><br/>
                         <a target="_blank" href="https://www.geeksforgeeks.org/data-structures/linked-list/">Linked List</a><br/> 
+                        <a target="_blank" href="https://learn.microsoft.com/en-us/cpp/standard-library/overloading-the-output-operator-for-your-own-classes?view=msvc-170">Operator Overloading</a><br/> 
                     </td>
                     <td className="border border-slate-700 p-1 text-center text-blue-700 font-bold">
                         <a target="_blank" href="https://maryash.github.io/135/labs/lab_13.html">Lab 13</a><br/>

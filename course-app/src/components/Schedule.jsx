@@ -287,7 +287,14 @@ export default function Schedule(midterm){
                         <a target="_blank" href="/Hunter_CS135_Summer23/extra_content/final_review.pdf">Final Review</a><br/>
                     </td>
                     <td className="border border-slate-700 p-1 text-center text-blue-700 font-bold">
-                        TBA...
+                        <a target="_blank" href="https://docs.github.com/en/get-started/quickstart/hello-world">Github and Git</a><br/>
+                        <a target="_blank" href="https://www.techinterviewhandbook.org/grind75">Leetcode</a><br/>
+                        <a target="_blank" href="https://devpost.com/hackathons">Hackathons</a><br/>
+                        <a target="_blank" href="https://www.hackthebox.com/hacker/ctf">CTF</a><br/>
+                        <a target="_blank" href="https://itch.io/jams">Game Jams</a><br/>
+                        <a target="_blank" href="https://github.com/practical-tutorials/project-based-learning/tree/master">Projects</a><br/>
+                        <a target="_blank" href="https://www.hostinger.com/tutorials/web-developer-portfolio">Portfolios</a><br/>
+                        <a target="_blank" href="https://www.youtube.com/playlist?list=PLfYUBJiXbdtSvpQjSnJJ_PmDQB_VyT5iU">Deep Learning</a><br/>
                     </td>
                 </tr>
                 <tr>

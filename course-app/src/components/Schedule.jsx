@@ -295,6 +295,7 @@ export default function Schedule(midterm){
                         <a target="_blank" href="https://github.com/practical-tutorials/project-based-learning/tree/master">Projects</a><br/>
                         <a target="_blank" href="https://www.hostinger.com/tutorials/web-developer-portfolio">Portfolios</a><br/>
                         <a target="_blank" href="https://www.youtube.com/playlist?list=PLfYUBJiXbdtSvpQjSnJJ_PmDQB_VyT5iU">Deep Learning</a><br/>
+                        <a target="_blank" href="https://www.kaggle.com/">ML Datasets</a><br/>
                     </td>
                 </tr>
                 <tr>

@@ -5,7 +5,7 @@ import { LuSchool } from 'react-icons/lu'
 import { AiOutlineFundProjectionScreen, AiTwotoneCalendar } from 'react-icons/ai'
 
 export const Info = ( assignments ) => {
-    const [selected, setSelected] = useState(2);
+    const [selected, setSelected] = useState(1);
 
     return (
         <div className="w-10/12 py-5">

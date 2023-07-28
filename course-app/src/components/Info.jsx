@@ -94,7 +94,7 @@ export function CourseInfo() {
                             In-Person (HN1001C):<br/>
                             <p className='indent-10'>Monday 4:00 pm - 5:00 pm</p>
                             <p className='indent-10'>Wednesday 4:00 pm - 5:00 pm</p>
-                            Online (<a className="text-blue-700 font-bold" target="_blank" href="https://us02web.zoom.us/j/88367352955?pwd=ZFAxVUhESTZVSVp5TkZjY3NwMG9XZz09">Zoom</a>):<br/>
+                            Online (<a className="text-blue-700 font-bold" target="_blank" href="http://proto007.pythonanywhere.com/">Zoom</a>):<br/>
                             <p className='indent-10'>Friday 2:00 pm - 4:00 pm</p>
                         </dd>
                     </div>

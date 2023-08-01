@@ -246,7 +246,7 @@ export default function Schedule(midterm){
                 <tr>
                     <td className="border border-slate-700 p-2 text-center">07/17/2023</td>
                     <td className="border border-slate-700 p-2 text-center">
-                        Vector and Classes Example<br/>
+                        Vector and Classes(<a className="text-blue-700 font-bold" href="/Hunter_CS135_Summer23/extra_content/vector_example.zip" download>code</a>)<br/>
                         Virtual Classes<br/>
                         Recursion<br/>
                     </td>

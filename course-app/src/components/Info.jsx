@@ -68,7 +68,7 @@ export function CourseInfo() {
                     </div>
                     <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
                         <dt className="text-sm font-mono font-semibold leading-6 text-black">Email</dt>
-                        <dd className="mt-1 text-sm font-mono leading-6 text-gray-900 sm:col-span-2 sm:mt-0">sadab.hafiz52@myhunter.cuny.edu</dd>
+                        <dd className="mt-1 text-sm font-mono leading-6 text-gray-900 sm:col-span-2 sm:mt-0">sh3646@hunter.cuny.edu</dd>
                     </div>
                     <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
                         <dt className="text-sm font-mono font-semibold leading-6 text-black">Lecture hours</dt>
